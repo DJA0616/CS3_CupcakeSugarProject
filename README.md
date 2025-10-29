@@ -23,4 +23,8 @@ The about page shows the logo and the title of our website in its header. Alongs
 ## JavaScript
 There are multiple parts of the page that will require JavaScript. First is the plant and progress bar in the home page. These require a system to compute the for the way the progress bar and the plant looks depending on the status of the goal. Second is the profile page. The large plant on the side of the profile page would also require a system to compute the way the plant would be shaped. Third is the calendar page which would require the user to interact with the differnet blocks of time. There needs to be JavaScript in place for the user to be able to change the size and move the different blocks of time that they set.
 
-**Logo**
+## Logo
+![GoalGarden](assets/GoalGarden_logo.png)
+
+## Wireframe
+[Canva Link](https://www.canva.com/design/DAG3KHiH9LM/R0gjlAUo4Clk18q5jV2GOQ/edit?utm_content=DAG3KHiH9LM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
