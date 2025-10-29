@@ -26,5 +26,5 @@ There are multiple parts of the page that will require JavaScript. First is the 
 ## Logo
 ![GoalGarden](assets/GoalGarden_logo.png)
 
-## Wireframe
+### Wireframe
 [Canva Link](https://www.canva.com/design/DAG3KHiH9LM/R0gjlAUo4Clk18q5jV2GOQ/edit?utm_content=DAG3KHiH9LM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
