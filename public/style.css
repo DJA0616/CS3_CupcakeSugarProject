@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-bar{
+    background-color: grey;
+    margin: none;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3vw;
+    padding: 5px;
+}
+
+.navigation-bar-right, .navigation-bar-left{
+    display: flex;
+    border: 1px solid black;
+    gap: 10px;
+}
+
+.content-section{
+    background-color: grey;
+
+    border: 1px solid black;
+    box-sizing: border-box;
+    min-height: 85vh;
+    border-radius: 3vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    padding: 1vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting-section{
+    background-color: lightgray;
+
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 2vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xxx-large;
+    margin: 0 auto;
+}
+
+.greeting-button{
+    margin: 0 auto;
+}
+
+.progress-display{
+    background-color: ghostwhite;
+
+    border: 1px solid black;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.goal-card-display{
+    background-color: lightgray;
+
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 2vw;
+    margin-top: 1vw;
+    bottom: 1vw;
+    padding: 1vw;
+
+    flex-grow: 1;
+}
