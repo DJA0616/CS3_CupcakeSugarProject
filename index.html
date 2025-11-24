@@ -32,9 +32,35 @@
             <button class="greeting-button">Take user down the page</button>
         </section>
 
-        <section class="goal-card-display">
+        <section class="goal-card-display"></section>
 
-        </section>
+        <template id="goal-card-template">
+            <section class="goal-card">
+                <section class="goal-card-left">
+                    <section class="goal-name-description">
+
+                    </section>
+                    <section class="goal-details">
+    
+                    </section>
+                </section>
+
+                <section class="goal-card-progress-visualization">
+
+                </section>
+            </section>
+        </template>
     </section>
+
+    <script>
+        const goalCardDisplay = document.querySelector(".goal-card-display");
+        const template = document.querySelector("#goal-card-template");
+
+        var goalCounter = 4;
+
+        for(var i = 0; i < goalCounter; i++){
+            goalCardDisplay.append(template.content.cloneNode(true));
+        }
+    </script>
 </body>
 </html>
